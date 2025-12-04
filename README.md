@@ -3,6 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/stm32f1-hal.svg)](https://crates.io/crates/stm32f1-hal)
 [![Docs.rs](https://docs.rs/stm32f1-hal/badge.svg)](https://docs.rs/stm32f1-hal)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](./LICENSE)
+[![Downloads](https://img.shields.io/crates/d/stm32f1-hal.svg)](https://crates.io/crates/stm32f1-hal)
 
 **stm32f1-hal** is a Rust Hardware Abstraction Layer (HAL) for **STM32F1 microcontrollers** (STM32F103, STM32F107, etc.), built on [`embedded-hal`](https://github.com/rust-embedded/embedded-hal), designed for **embedded development**.  
 This crate provides a safe, idiomatic, and easy-to-use interface for developers who want to explore Rust on STM32F1 devices.
@@ -83,3 +84,11 @@ fn main() {
 - Rust Embedded Book
 - STM32F1 Reference Manual
 - Rust Embedded Matrix Chat
+
+## 📜 License
+This project is licensed under either of the following at your option:
+- [MIT License](./LICENSE)
+- [Apache License (Version 2.0)](./LICENSE)
+
+## 🔖 Keywords
+**stm32 · stm32f1 · rust · embedded-hal · microcontroller · embedded development**
