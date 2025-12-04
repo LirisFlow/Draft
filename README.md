@@ -34,6 +34,8 @@ cargo add stm32f1-hal
 stm32f1-hal = "0.1"
 ```
 ## 🚀 Quick Start Example
+More usage examples can be found in the [examples](./examples) directory.
+
 ```text
 use stm32f1_hal as hal;
 use hal::pac;
@@ -57,6 +59,7 @@ fn main() {
     }
 }
 ```
+
 ## 🧩 Supported Devices
 - STM32F103 (Blue Pill, Black Pill boards)
 - STM32F107 (Ethernet-enabled variants)
