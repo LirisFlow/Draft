@@ -25,10 +25,10 @@ By providing a lightweight and consistent HAL, this project aims to lower the ba
   
 ## 📦 Installation
 ```text
-# 安装方式
+# Installation
 cargo add stm32f1-hal
 
-# Cargo.toml 配置
+# Cargo.toml Configuration
 [dependencies]
 stm32f1-hal = "0.1"
 ```
