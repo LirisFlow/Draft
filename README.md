@@ -4,11 +4,17 @@
 [![Docs.rs](https://docs.rs/stm32f1-hal/badge.svg)](https://docs.rs/stm32f1-hal)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](./LICENSE)
 
-A **Rust Hardware Abstraction Layer (HAL)** for **STM32F1 microcontrollers**, built on [`embedded-hal`](https://github.com/rust-embedded/embedded-hal).
+**stm32f1-hal** is a Rust Hardware Abstraction Layer (HAL) for **STM32F1 microcontrollers** (STM32F103, STM32F107, etc.), built on [`embedded-hal`](https://github.com/rust-embedded/embedded-hal), designed for **embedded development**.  
+This crate provides a safe, idiomatic, and easy-to-use interface for developers who want to explore Rust on STM32F1 devices.
+
+---
 
 ## 🎯 Motivation
-This project was created with a simple goal: **prioritize readability and usability** when working with STM32F1 in Rust.  
-Instead of focusing only on performance or completeness, the design emphasizes clear, idiomatic Rust code that makes embedded development approachable.
+The purpose of this project is simple: **make STM32F1 development in Rust clear, readable, and approachable**.  
+Instead of focusing only on performance or completeness, the design emphasizes **readability first**, leveraging Rust’s type system to ensure safety while keeping code idiomatic and easy to understand.  
+
+By providing a lightweight and consistent HAL, this project aims to lower the barrier for embedded developers exploring Rust on STM32F1 boards like the popular **Blue Pill**.
+
 
 ## ✨ Features
 - GPIO (input/output, alternate functions)
