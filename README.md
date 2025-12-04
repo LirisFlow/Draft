@@ -35,11 +35,10 @@ This project is still in its early stages, with only a few features implemented 
 Contributions and feedback are welcome to help expand support for more peripherals and STM32F1 variants.
 
 ## ✨ Features
-- GPIO (input/output, alternate functions)
-- Timers (basic usage, PWM)
-- UART (serial communication)
-- SPI (basic support)
-- Extensible design for future peripherals (I2C, ADC, DMA)
+- ⚡ GPIO (input/output, alternate functions)  
+- ⏱ Timers (basic usage, PWM)  
+- 📡 UART (serial communication)  
+- 🔄 SPI (basic support)  
   
 ## 📦 Installation
 ```text
@@ -100,10 +99,5 @@ Contributions are welcome!
 - STM32F1 Reference Manual
 - Rust Embedded Matrix Chat
 
-## 📜 License
-This project is licensed under either of the following at your option:
-- [MIT License](./LICENSE)
-- [Apache License (Version 2.0)](./LICENSE)
-
 ## 🔖 Keywords
-**stm32 · stm32f1 · rust · embedded-hal · microcontroller · embedded development**
+**stm32 · stm32f1 · rust · embedded-hal · hal · microcontroller · embedded development · blue pill**
