@@ -4,9 +4,13 @@
 [![Docs.rs](https://docs.rs/sync-code/badge.svg)](https://docs.rs/sync-code)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](./LICENSE)
 
-**sync-code** is a Rust tool for managing and synchronizing duplicate code across modules and peripherals.  
-It was created to solve a common problem in embedded development: macros and heavy generics often reduce readability, making maintenance harder.  
-Instead, sync-code provides a clear, script-driven approach to keep code consistent and easy to understand.
+Synchronize code blocks between different files.
+
+**sync-code** is a preprocessing tool that replaces annotated comments with reusable code during compilation.  
+It serves as a clearer alternative to macros in certain scenarios. For example, when code is not heavily duplicated but the design is relatively complex (such as involving generics), using sync-code instead of macros provides much better readability and easier maintenance.  
+
+Unlike macros, sync-code preserves IDE features such as **Go-to-definition** and intelligent auto-completion, ensuring a smoother developer experience.
+
 
 ## 🎯 Motivation
 In embedded Rust projects, especially HALs, code duplication is inevitable.  
